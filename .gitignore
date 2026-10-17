@@ -1,6 +1,6 @@
 # ===== Build artifacts =====
-build/
 target/
+build/
 out/
 bin/
 
@@ -10,31 +10,9 @@ bin/
 *.ear
 
 # ===== Logs =====
-log/
 logs/
+log/
 *.log
-
-# ===== Editor / IDE =====
-.vscode/
-.idea/
-*.iml
-*.code-workspace
-
-# ===== OS files =====
-.DS_Store
-Thumbs.db
-
-# ===== Secrets / Keys =====
-*.pem
-*.key
-*.crt
-*.p12
-*.der
-
-# ===== Temporary files =====
-*.tmp
-*.swp
-*.bak
 
 # ===== Maven =====
 .mvn/wrapper/maven-wrapper.jar
@@ -42,15 +20,40 @@ Thumbs.db
 # ===== Gradle =====
 .gradle/
 
-# ===== Spring Boot Profile =====
-application-local.yml
-application-local.properties
-application-dev.yml
-application-dev.properties
+# ===== IDE =====
+.idea/
+*.iml
+.vscode/
+*.code-workspace
 
-# ===== Test / Coverage =====
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Secrets =====
+*.pem
+*.key
+*.crt
+*.p12
+*.der
+
+# ===== Spring Profiles =====
+application-local.properties
+application-local.yml
+application-dev.properties
+application-dev.yml
+
+# ===== Test =====
 coverage/
 *.exec
 
-# ===== Generated files =====
+# ===== Generated =====
 generated/
+
+# ===== Temporary =====
+*.tmp
+*.swp
+*.bak
+
+# ===== Notes =====
+*.txt
