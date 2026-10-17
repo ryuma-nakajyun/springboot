@@ -1,19 +1,24 @@
 # ===== Build artifacts =====
 build/
-*.o
-*.out
-*.exe
-*.a
-*.so
-*.dll
+target/
+out/
+bin/
+
+# ===== Spring Boot =====
+*.jar
+*.war
+*.ear
 
 # ===== Logs =====
 log/
+logs/
 *.log
 
 # ===== Editor / IDE =====
-# .vscode/
-# *.code-workspace
+.vscode/
+.idea/
+*.iml
+*.code-workspace
 
 # ===== OS files =====
 .DS_Store
@@ -31,8 +36,21 @@ Thumbs.db
 *.swp
 *.bak
 
-# ===== CMake (もし使う場合) =====
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
+# ===== Maven =====
+.mvn/wrapper/maven-wrapper.jar
+
+# ===== Gradle =====
+.gradle/
+
+# ===== Spring Boot Profile =====
+application-local.yml
+application-local.properties
+application-dev.yml
+application-dev.properties
+
+# ===== Test / Coverage =====
+coverage/
+*.exec
+
+# ===== Generated files =====
+generated/

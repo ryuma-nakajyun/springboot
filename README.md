@@ -12,13 +12,13 @@
 - springboot の基礎構文の習得
 
 ### ディレクトリ構成
-- 
+- TBD
 
 ### 学習内容
 - springboot 基本文法
 
 ### 実行方法
-- 
+- TBD
 
 ### 開発環境
 - Java* / 17
@@ -27,4 +27,3 @@
 - Git
 - GitHub
 - VS Code
-
