@@ -11,9 +11,10 @@ public class HelloController {
         return "Hello World!\n";
     }
 
-    @GetMapping("/country")
-    public String country() {
-        String ret = "japan>" +"tokyo\n";
-        return ret;
-    }
+    // 動作確認のためのメソッドだったため、コメントアウト
+    // @GetMapping("/country")
+    // public String country() {
+    //     String ret = "japan>" +"tokyo\n";
+    //     return ret;
+    // }
 }
