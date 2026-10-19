@@ -66,8 +66,8 @@ Hello Spring Boot!
 - *.jks  
 
 ## 学習の次の段階
-```text 
 今のリポジトリ構成なら
+```text 
 HTTP化
 ↓
 HTTPS化
@@ -79,14 +79,17 @@ REST API追加
 PostgreSQL接続
 ↓
 Spring Security
-の順が自然です。
 ```
+の順が自然です。
 
 ### 注意すべきこと
 特に HTTPS 化は「Spring Boot の設定変更だけで Tomcat の SSL が有効になる」ことを理解するのが目的で、  
 実務ではその後に Nginx や AWS ALB を前段に置く構成へ進むことが多いです。  
 
-参考:AI先生
+参考:AI先生  
 
 ## memo
+- 
+- 
+- 
 
