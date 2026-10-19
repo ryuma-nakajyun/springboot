@@ -10,4 +10,10 @@ public class HelloController {
     public String hello() {
         return "Hello World!\n";
     }
+
+    @GetMapping("/country")
+    public String country() {
+        String ret = "japan>" +"tokyo\n";
+        return ret;
+    }
 }
