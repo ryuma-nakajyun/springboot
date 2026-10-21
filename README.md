@@ -12,19 +12,23 @@
 - springboot の基礎構文の習得
 
 ## ディレクトリ構成
-- TBD
-
+```text 
+springboot/
+```
 ## 学習内容
 - springboot 基本文法
 - springMVC 
 
 ## 実行方法
-- TBD
+```text 
+./mvnw spring-boot:run
+```
 
 ## 開発環境
-- Java* / 17
-- Linux
-- Shellscript
-- Git
-- GitHub
-- VS Code
+- OS : Linux(Ubuntu 24.04 LTS)
+- 言語 : Java 17
+- フレームワーク : SpringBoot 3.5.6
+- ビルドツール : Apache Maven 3.8.7
+- スクリプト : Shell Script (Bash)
+- バージョン管理 : Git / GitHub
+- 開発ツール : VS Code
